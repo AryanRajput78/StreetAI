@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>StreetAI</title>
+</head>
+<body>
+    <h1>StreetAI</h1>
+    <div id="paragraph">
+        Street AI is a step towards smart, clean and safe streets and roads.
+        ML based algorithm scans the streets for pot holes, stray animals, garbage and potentially more use cases.
+        A clean and intuitive timeline video allows decision makers to take necessary action.
+        Objects would be detected from a video uploaded on our website and authorities can look into the problems in a particular street.
+        So let's stop complaining and start solving.
+    </div>
+    <div class="container">
+        <div id="register-area">
+            <form class="register-form" method="post">
+                <h3><strong>Register</strong></h3>
+                <div id="name" data-validate="Name is Required.">
+                    <span id="name-placeholder">Name</span>
+                    <input class="name-textarea" type="text" placeholder="Enter Full name">
+                </div>
+                <div id="email" data-validate="Email is Required.">
+                    <span id="email-placeholder">Email</span>
+                    <input class="email-textarea" type="email" placeholder="Enter Email">
+                </div>
+                <div id="Username" data-validate="Username is Required.">
+                    <span id="username-placeholder">Username</span>
+                    <input class="username-textarea" type="text" placeholder="Enter a Username">
+                </div>
+                <div id="password1" data-validate="Password is Required.">
+                    <span id="password-placeholder">Password</span>
+                    <input class="password-textarea" type="password" placeholder="Enter password">
+                </div>
+                <div id="password2" data-validate="Password is Required.">
+                    <span id="password-placeholder">Re-enter Password</span>
+                    <input class="password-textarea" type="password" placeholder="Enter the password again">
+                </div>        
+            </form>
+            <button id="register-btn">Register</button>
+        </div>
+        <div id="login-area">
+            <form class="login-form" method="post">
+                <div id="login-form">
+                    <h3><strong>Login</strong></h3>
+                </div>
+                <div id="Username" data-validate="Username is Required.">
+                    <span id="username-placeholder">Username</span>
+                    <input class="username-textarea" type="text" placeholder="Enter a Username">
+                </div>
+                <div id="password1" data-validate="Password is Required.">
+                    <span id="password-placeholder">Password</span>
+                    <input class="password-textarea" type="password" placeholder="Enter password">
+                </div>       
+            </form>
+            <button id="login-btn">Log In</button>
+        </div>
+    </div>
+    <script src="Login.js" async></script>
+</body></html>
