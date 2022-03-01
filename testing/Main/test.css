@@ -75,33 +75,20 @@ h2 {
 	margin-top: 15px; 
 }
 
-.container {
-	column-count: 2;
-	column-gap: 15px;
-	display: inline;
-	align-items: center;
-	background-color: #e85a4f;
-}
-
-.container > div > form {
+div.container {
 	background-color: white;
-	border-radius: 15px; 
+	align-content: center;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 2px; 
 	padding: 5px;
-	margin-bottom: 15px;
+	position: absolute;
 }
 
-.container > div >form:hover {
+.container > form:hover {
 	box-shadow: 0 0 5px 5px var(--button-transition);
 	transition: 250ms ease-in;
-}
-
-form.register-form {
-	float: left;
-}
-
-form.login-form {
-	float: right;
-	margin-left: 15px;
+	border-radius: 15px;
 }
 
 form > div {
